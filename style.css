@@ -121,13 +121,13 @@ ul li a {
 
 /* SECTION ONE */
 .section-one {
-    height: 58.8rem;
+    /* height: 58.8rem; */
     /* background-color: white; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 4.3rem;
-    width: 1920px;
+    /* width: 100%; */
     position: relative;
     margin: auto;
 }
@@ -143,9 +143,15 @@ ul li a {
     z-index: -1;
 }
 
+.section-one-left {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
 .section-one-left .text {
-    width: 36.5625rem;
-    height: 23.35rem;
+    width: 40.5%;
+    gap: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -174,7 +180,8 @@ ul li a {
     padding: 1.3rem 3.07rem;
     border-radius: 40.67px;
     width: 13.17rem;
-    display: flex;
+    /* display: inline; */
+    text-align: center;
     justify-content: center;
 }
 
@@ -204,8 +211,8 @@ ul li a {
 
 /* SECTION TWO */
 .section-two {
-    height: 2559px;
     margin: auto;
+    margin-bottom: 7.5rem;
 }
 
 .section-two-button {
@@ -237,14 +244,13 @@ ul li a {
 }
 
 .section-two article {
-    background:
-        #F7F8FF;
-    width: 110.5rem;
+    background: #F7F8FF;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 7.5rem;
-    height: 37.4rem;
+    padding: 2rem 7.5rem;
+    /* height: 37.4rem; */
     margin: auto;
     border-radius: 2rem;
 }
@@ -261,7 +267,6 @@ ul li a {
 .section-two-left2 .article-button,
 .section-two-left2 .article-logo {
     margin-left: auto;
-
 }
 
 .article-head {
@@ -328,7 +333,7 @@ ul li a {
 }
 
 .section-three-des {
-    width: 1220px;
+    width: 80%;
     margin: auto;
     justify-content: space-between;
     display: flex;
@@ -382,6 +387,7 @@ ul li a {
     color: #373435;
     font-size: 23.05px;
     height: 9.77px;
+    opacity: 50%;
 }
 
 .section-three-image {
@@ -403,7 +409,7 @@ ul li a {
 
 /* SECTION FOUR */
 .section-four {
-    width: 1190px;
+    width: 70%;
     margin: auto;
     padding: 3.8rem 0;
     display: flex;

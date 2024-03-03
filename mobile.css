@@ -1,0 +1,270 @@
+@media (max-width: 768px) {
+    body {
+        /* padding: 13px; */
+        width: 95%;
+        margin: auto;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .section-one {
+        flex-direction: column;
+        padding: 0;
+        gap: 1rem;
+    }
+
+    .section-one-left p {
+        font-size: 0.87em;
+        line-height: 16.41px;
+    }
+
+    .section-one-head {
+        font-size: 2.5em;
+        line-height: 53.12px;
+    }
+
+    .section-one-left {
+        gap: 1rem;
+    }
+
+    .section-one-left .text {
+        width: 90%;
+        gap: 1rem;
+    }
+
+    .section-one-left .button {
+        width: 107.6px;
+        font-size: 0.87em;
+        color: white;
+        font-weight: 500;
+        background-color: #4A4E9E;
+        padding: 10.7px 25px;
+        border-radius: 40.67px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-one .background {
+        display: none;
+    }
+
+    .section-one-right {
+        width: 97%;
+        height: 389.68px;
+        padding: 1.2rem 1.0rem;
+    }
+
+    /* SECTION TWO */
+    .section-two {
+        margin-bottom: 2rem;
+    }
+
+    .section-two-button {
+        font-size: 14px;
+        line-height: 12.02px;
+        color: white;
+        border-radius: 48.55px;
+        padding: 5.83px 9.71px 5.83px 9.71px;
+        width: 127px;
+        height: 24.65px;
+    }
+
+    .services-des {
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 28.13px;
+        margin: auto;
+        width: 281px;
+        height: 84px;
+    }
+
+    .section-two .articles {
+        gap: 21px;
+        margin-top: 24px;
+    }
+
+    .section-two article {
+        padding: 10px;
+        width: 100%;
+        flex-direction: column;
+        border-radius: 16.82px;
+    }
+
+    .article-head {
+        font-size: 18px;
+        line-height: 23.23px;
+    }
+
+    .article-text {
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+    }
+
+    .article-p {
+        width: 93%;
+        font-weight: 200;
+        font-size: 1em;
+        line-height: 20px;
+    }
+
+    .article-button {
+        font-size: 12px;
+        line-height: 12.61px;
+        letter-spacing: 0.79px;
+        border-radius: 50px;
+        border: 1px solid #2EB454;
+        padding: 11.04px 6.83px;
+        width: 120px;
+    }
+
+    .section-two-right {
+        width: auto;
+        height: 305.77px;
+        border-radius: 5.48px;
+        padding: 21.24px 11.76px;
+        background-color: white;
+    }
+
+    .section-two-right img {
+        border-radius: 5.61px;
+    }
+
+    .article-logo img {
+        width: 161.39px;
+        height: 45.73px;
+    }
+
+    /* SECTION THREE */
+    .section-three-head {
+        font-size: 24px;
+        width: 86.7%;
+        margin: auto;
+        font-weight: 500;
+        line-height: 28.13px;
+        margin-bottom: 24px;
+    }
+
+    .section-three-des {
+        width: 100%;
+        margin: auto;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    section-three .button {
+        font-weight: 600;
+        font-size: 6.18px;
+        line-height: 9.26px;
+        letter-spacing: 0.05px;
+        padding: 5.23px 21.38px;
+        display: inline-block;
+        border-radius: 9.8px;
+        margin-bottom: 24px;
+    }
+
+    .section-three h2 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 24.59px;
+        letter-spacing: -0.95px;
+    }
+
+    .reasons {
+        margin-top: 25px;
+    }
+
+    .reason {
+        width: 312px;
+        gap: 15.2px;
+        margin: auto;
+    }
+
+    .reason p {
+        font-size: 14px;
+        line-height: 16.63px;
+        letter-spacing: -0.1px;
+    }
+
+    .reason p :nth-child(2) {
+        font-weight: 700;
+    }
+
+    .fa-solid {
+        font-size: 10.95px;
+        height: 4.64px;
+    }
+
+    .section-three-image {
+        width: 100%;
+        height: 371.58px;
+        margin: auto;
+    }
+
+    .section-three-image img {
+        object-fit: cover;
+        border: 3.12px solid #4A4E9E;
+        width: 100%;
+        height: 100%;
+        border-radius: 15.58px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .section-three-des {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .section-four {
+        flex-direction: column;
+    }
+
+    .footer-top,
+    .footer-right,
+    footer-socials {
+        flex-direction: column;
+    }
+
+    .section-four,
+    footer,
+    .reality {
+        display: none;
+    }
+}
