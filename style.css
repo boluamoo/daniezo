@@ -25,13 +25,13 @@ ol[role='list'] {
 }
 
 /* Set core root defaults */
-html:focus-within {
+html {
     scroll-behavior: smooth;
 }
 
 /* Set core body defaults */
 body {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     font-family: 'Roboto';
@@ -127,6 +127,7 @@ ul li a {
     justify-content: space-between;
     align-items: center;
     padding: 4.3rem;
+    padding-bottom: 0;
     /* width: 100%; */
     position: relative;
     margin: auto;
@@ -213,6 +214,7 @@ ul li a {
 .section-two {
     margin: auto;
     margin-bottom: 7.5rem;
+    padding-top: 5rem;
 }
 
 .section-two-button {
