@@ -488,7 +488,7 @@ footer {
     background: url('assets/section4background.png');
     background-size: cover;
     background-repeat: no-repeat;
-    border-top: 1px;
+    border: 1px 0 0;
     border-style: solid;
     border-color: #E6E6E6;
 }
@@ -497,6 +497,7 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-bottom: 6rem;
+    flex-wrap: wrap;
 }
 
 .footer-left {
@@ -524,11 +525,18 @@ footer .contact-info ul {
     gap: 14px;
 }
 
+footer .contact-info ul li {
+    font-size: 1em;
+    line-height: 24px;
+    font-weight: 400;
+}
+
 .footer-right {
     width: 737px;
     display: flex;
     justify-content: space-between;
     margin-left: auto;
+    flex-wrap: wrap;
 }
 
 .footer-column {
