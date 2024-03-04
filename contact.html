@@ -19,6 +19,7 @@
     <script src="https://kit.fontawesome.com/fea14e8e56.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="mobile.css">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="contactmobile.css">
 </head>
 
 <body>
@@ -35,11 +36,41 @@
             <li><a href="contact.html" class="contact-link">Contact Us</a></li>
         </ul>
         <a href="sign-in.html">
-        <div class="nav-button" id="nav-button">
+            <div class="nav-button" id="nav-button">
                 Sign In
             </div>
         </a>
     </nav>
+    <div class="mobile-nav">
+        <div class="mobile-nav-top">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="">
+                </div>
+            </a>
+            <div class="mobile-nav-open">
+                <i class="fa-solid fa-bars" id="open"></i>
+            </div>
+        </div>
+        <div class="mobile-nav-bottom" id="nav-links">
+            <div class="mobile-nav-close">
+                <i class="fa-solid fa-xmark" id="close"></i>
+            </div>
+            <div class="mobile-link-container">
+                <ul class="mobile-nav-links" id="link-list">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="index.html#services" class="nav-services">Our Services</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <a href="sign-in.html">
+                    <div class="mobile-nav-button">
+                        Sign In
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="main">
         <div class="to-left">
             <h1>How can we help?</h1>
@@ -58,6 +89,7 @@
             <img src="assets/contact.png" alt="">
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -595,3 +595,7 @@ footer .contact-info ul li {
     margin: auto;
     text-align: center;
 }
+
+.mobile-nav {
+    display: none;
+}

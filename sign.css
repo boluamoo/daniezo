@@ -1,7 +1,7 @@
 .main {
     display: flex;
     height: 100vh;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 2rem;
     align-items: center;
     justify-content: space-between;
@@ -190,7 +190,7 @@ span a {
 .images {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .image {
@@ -242,4 +242,10 @@ span a {
     font-weight: 400;
     box-shadow: 0px 0px 0px 1px #D5DCE3 inset;
     border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .sign-right {
+        display: none;
+    }
 }
