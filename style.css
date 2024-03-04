@@ -41,6 +41,10 @@ body {
     font-family: 'Roboto';
     color: #373435;
 }
+p, a {
+    color: #373435;
+
+}
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
@@ -105,6 +109,11 @@ ul {
 
 ul li {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
+
 }
 
 ul li a {

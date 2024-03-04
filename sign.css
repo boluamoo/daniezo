@@ -1,0 +1,245 @@
+.main {
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.go-back {
+    position: absolute;
+    top: 19.5px;
+    left: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 1px #D5DCE3 inset;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.go-back .icon {
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.sign-left {
+    /* flex-basis: 43%; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-left: 125.77px;
+    padding-right: 125.77px;
+}
+
+.sign-width {
+    width: 400px;
+}
+
+.sign-left h1 {
+    line-height: 46.8px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 56.2px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    outline: none;
+}
+
+.password {
+    position: relative;
+}
+
+.forgot-password {
+    position: absolute;
+    right: 0;
+}
+
+.forgot-password a {
+    color: #4A4E9E;
+    text-decoration: underline;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-right {
+    /* flex: 1.5; */
+    flex-basis: 57%;
+    color: white;
+    background-color: #4A4E9E;
+    text-align: center;
+}
+
+label {
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    font-weight: 400;
+    margin-bottom: 11px
+}
+
+input {
+    font-size: 13px;
+    line-height: 15.23px;
+    color: #8792A1;
+    border-radius: 4px;
+    padding: 15.5px 16px;
+    border: 0;
+    box-shadow: 0px 0px 0px 1px #D5DCE3 inset;
+}
+
+button {
+    outline: none;
+    font-size: 15px;
+    line-height: 50px;
+    border-radius: 4px;
+    border: 0;
+    background-color: #373435;
+    color: white;
+}
+
+.sign-left .logo {
+    width: 107.81px;
+}
+
+.sign-left .logo img {
+    object-fit: cover;
+}
+
+.or {
+    position: relative;
+    margin-top: 11px;
+}
+
+.ortext {
+    padding: 12px;
+    background-color: white;
+    margin: auto;
+    width: min-content;
+    text-align: center;
+    z-index: 10;
+}
+
+.line {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    height: 1px;
+    background-color: #D5DCE3;
+}
+
+.google {
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 1px #D5DCE3 inset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: 50px;
+}
+
+.google-logo {
+    position: absolute;
+    left: 0;
+}
+
+span {
+    display: flex;
+    justify-content: space-between;
+    width: 220.62px;
+    /* gap: 4px; */
+    margin-top: 110px;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+}
+
+span a {
+    text-decoration: underline;
+    color: #4A4E9E;
+}
+
+.sign-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 19px;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 473.15px;
+    padding: 21.88px;
+    height: 492.29px;
+    background-color: white;
+    border-radius: 8.2px;
+    box-shadow: 4.102419376373291px 4.102419376373291px 8.040742874145508px 0px #00000026;
+}
+
+.image img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.image1 {
+    transform: rotate(-7deg);
+    z-index: 2;
+}
+
+.image2 {
+    transform: rotate(7deg);
+    z-index: 1;
+}
+
+.sign-right p {
+    color: white;
+    font-size: 17px;
+    letter-spacing: -0.2px;
+    line-height: 22.1px;
+}
+
+.sign-right h2 {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 32.5px;
+    margin-bottom: 16px;
+}
+
+.sign-right-button {
+    font-size: 15px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    height: 50px;
+    padding: 0 25px;
+    font-weight: 400;
+    box-shadow: 0px 0px 0px 1px #D5DCE3 inset;
+    border-radius: 4px;
+}
