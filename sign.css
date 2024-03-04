@@ -248,4 +248,21 @@ span a {
     .sign-right {
         display: none;
     }
+
+    .main {
+        padding: 0;
+        gap: 0;
+        width: 100%;
+    }
+
+    .sign-left {
+        padding: 0;
+        align-items: center;
+        width: 95%;
+        margin: auto;
+    }
+
+    .sign-width {
+        width: 100%;
+    }
 }
