@@ -1,5 +1,8 @@
+.about-main {
+    padding-top: 5rem;
+}
+
 .about-section-one {
-    margin-top: 55px;
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -2,11 +2,13 @@
     .about-main {
         width: 88.5%;
         margin: auto;
+        padding-top: 0;
     }
 
     .about-section-one {
         flex-direction: column;
         width: 100%;
+        margin-top: 55px;
         padding: 2rem 0 0;
         height: auto;
         align-items: flex-start;
