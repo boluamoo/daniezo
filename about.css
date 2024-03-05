@@ -1,0 +1,32 @@
+.about-section-one {
+    padding-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px 0 134px;
+    height: 678px;
+}
+
+.about-section-one-image {
+    height: 534.31px;
+    width: 436px;
+    margin-top: 62px;
+}
+
+.about-section-one-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 34.67px;
+    object-fit: cover;
+}
+
+.about-section-one-text h1 {
+    font-size: 104px;
+    letter-spacing: 0.1px;
+    line-height: 100px;
+    font-weight: 300;
+}
+
+.about-section-one-text .about-h1-blue {
+    font-weight: 700;
+}
