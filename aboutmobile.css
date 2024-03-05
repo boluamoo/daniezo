@@ -7,7 +7,7 @@
     .about-section-one {
         flex-direction: column;
         width: 100%;
-        padding: 101px 0 0;
+        padding: 2rem 0 0;
         height: auto;
         align-items: flex-start;
     }
