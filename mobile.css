@@ -92,6 +92,7 @@
     .body-main {
         width: 95%;
         margin: auto;
+        padding-top: 0;
     }
 
     nav {
@@ -149,6 +150,8 @@
     /* SECTION TWO */
     .section-two {
         margin-bottom: 2rem;
+        /* margin-top: -5rem; */
+        /* padding-top: 0; */
     }
 
     .section-two-button {
@@ -159,6 +162,7 @@
         padding: 5.83px 9.71px 5.83px 9.71px;
         width: 127px;
         height: 24.65px;
+        margin-top: 0;
     }
 
     .services-des {

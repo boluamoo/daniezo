@@ -1,12 +1,18 @@
 @media (max-width: 768px) {
+    .about-main {
+        width: 88.5%;
+        margin: auto;
+    }
+
     .about-section-one {
         flex-direction: column;
-        padding: 148px 21px 134px;
+        width: 100%;
+        padding: 101px 0 0;
         height: auto;
         align-items: flex-start;
     }
 
-    .about-section-one-text h1{
+    .about-section-one-text h1 {
         font-size: 40px;
         line-height: 46.88px;
         text-align: left;
@@ -25,10 +31,45 @@
         width: 100%;
         margin-top: 31px;
     }
+
     .about-section-one-image img {
         height: 100%;
         width: 100%;
         border-radius: 24px;
         object-fit: cover;
+    }
+
+    .about-section-two {
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+        padding-top: 2rem;
+    }
+
+    .about-section-two .images {
+        height: 351px;
+        gap: 13.48px;
+    }
+
+    .image-col1,
+    .image-col2 {
+        gap: 20.5px;
+    }
+
+    .about-section-two .images img {
+        width: 159.26px;
+        height: 132.2px;
+        border-radius: 15.46px;
+    }
+
+    .about-section-two .text {
+        width: 100%;
+        gap: 12px;
+    }
+
+    .about-section-two .text .text-p {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
     }
 }

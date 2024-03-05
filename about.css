@@ -30,3 +30,62 @@
 .about-section-one-text .about-h1-blue {
     font-weight: 700;
 }
+
+.about-section-two {
+    margin-top: 114px;
+    width: 78%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 7rem;
+    justify-content: space-between;
+}
+
+.about-section-two .images {
+    display: flex;
+    height: 908px;
+    gap: 42px;
+}
+
+.image-col1,
+.image-col2 {
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.image-col1 {
+    align-self: flex-start;
+}
+
+.image-col2 {
+    align-self: flex-end;
+}
+
+.about-section-two .images img {
+    width: 412px;
+    height: 342px;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.about-section-two .text {
+    display: flex;
+    flex-direction: column;
+    width: 477px;
+    gap: 34px;
+}
+
+.about-section-two .text .text-head {
+    font-size: 34px;
+    line-height: 44px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+}
+
+.about-section-two .text .text-p {
+    font-size: 19.6px;
+    line-height: 37.24px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+}

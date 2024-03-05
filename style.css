@@ -29,7 +29,7 @@ html {
     scroll-behavior: smooth;
 }
 
-html::-webkit-scrollbar{
+html::-webkit-scrollbar {
     display: none;
 }
 
@@ -41,7 +41,9 @@ body {
     font-family: 'Roboto';
     color: #373435;
 }
-p, a {
+
+p,
+a {
     color: #373435;
 
 }
@@ -131,6 +133,9 @@ ul li a {
     border-radius: 27px;
 }
 
+.body-main {
+    padding-top: 5rem;
+}
 
 /* SECTION ONE */
 .section-one {
@@ -139,7 +144,7 @@ ul li a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4.3rem;
+    padding: 0 4.3rem;
     padding-bottom: 0;
     /* width: 100%; */
     position: relative;
