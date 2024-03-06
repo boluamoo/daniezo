@@ -3,7 +3,7 @@
     height: 100vh;
     /* flex-wrap: wrap; */
     gap: 2rem;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
     position: relative;
 }
@@ -12,27 +12,19 @@
     position: absolute;
     top: 19.5px;
     left: 20px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 0px 1px #D5DCE3 inset;
     width: 40px;
     height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.go-back .icon {
-    font-size: 2em;
-    font-weight: 300;
 }
 
 .sign-left {
-    /* flex-basis: 43%; */
+    /* flex-basis: 80%; */
     display: flex;
     flex-direction: column;
-    padding-top: 60px;
+    /* margin: 229px 126px;  */
+    align-self: center;
+    /* padding-top: 60px;
     padding-left: 125.77px;
-    padding-right: 125.77px;
+    padding-right: 125.77px; */
 }
 
 .sign-width {
@@ -117,56 +109,19 @@ button {
 
 .sign-left .logo {
     width: 107.81px;
+    position: absolute;
+    top: 60px;
+    left: 125.77px;
 }
 
 .sign-left .logo img {
     object-fit: cover;
 }
 
-.or {
-    position: relative;
-    margin-top: 11px;
-}
-
-.ortext {
-    padding: 12px;
-    background-color: white;
-    margin: auto;
-    width: min-content;
-    text-align: center;
-    z-index: 10;
-}
-
-.line {
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    top: 50%;
-    height: 1px;
-    background-color: #D5DCE3;
-}
-
-.google {
-    border-radius: 4px;
-    box-shadow: 0px 0px 0px 1px #D5DCE3 inset;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    position: relative;
-    height: 50px;
-}
-
-.google-logo {
-    position: absolute;
-    left: 0;
-}
-
 span {
     display: flex;
     justify-content: space-between;
     width: 220.62px;
-    /* gap: 4px; */
     margin-top: 110px;
     font-size: 15px;
     line-height: 24px;
@@ -245,6 +200,10 @@ span a {
 }
 
 @media (max-width: 768px) {
+    .main {
+        height: auto;
+    }
+
     .sign-right {
         display: none;
     }
@@ -259,10 +218,15 @@ span a {
         padding: 0;
         align-items: center;
         width: 95%;
-        margin: auto;
+        height: auto;
+        margin: 8rem auto 0;
     }
 
     .sign-width {
         width: 100%;
+    }
+
+    span {
+        margin-top: 3rem;
     }
 }
