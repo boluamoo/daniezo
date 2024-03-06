@@ -246,3 +246,33 @@
     letter-spacing: 0.1px;
     font-weight: 400;
 }
+
+.about-section-five {
+    width: 100%;
+    height: 603px;
+    text-align: center;
+}
+
+.about-section-five-heading {
+    font-size: 64px;
+    line-height: 49.5px;
+    font-weight: 600;
+}
+
+.about-section-five-p {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 37.5px;
+    letter-spacing: -0.36px;
+}
+
+.black-button {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    padding: 10px 48px;
+    background: #373435;
+    display: inline;
+    border-radius: 100px;
+}
