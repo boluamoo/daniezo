@@ -99,14 +99,16 @@
         height: 56px;
         display: flex;
         align-items: center;
+        justify-content: center;
         /* z-index: 11; */
     }
 
-    .sign-in-button {
+    .mobile-nav-sign-in-button {
         display: block;
         margin: auto;
         padding: 10.51px 0;
         font-weight: 700;
+        text-align: center;
         font-size: 11.7px;
         line-height: 13.71px;
         width: 208px;
