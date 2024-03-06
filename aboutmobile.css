@@ -114,4 +114,34 @@
         letter-spacing: 0.1px;
         font-weight: 400;
     }
+
+    .about-section-four {
+        flex-direction: column;
+    }
+
+    .about-section-four-image {
+        width: 340px;
+        height: 332.92px;
+    }
+
+    .about-section-four-image img {
+        border-radius: 0 9.02px 0 0;
+    }
+.about-section-four-text {
+    gap: 24px;
+    padding: 0;
+    margin-top: 24px;
+}
+    .about-section-four-des {
+        flex-direction: column;
+        gap: 22px;
+    }
+
+    .des1 {
+        margin-bottom: 22px;
+    }
+
+    .des-p {
+        width: 100%;
+    }
 }
