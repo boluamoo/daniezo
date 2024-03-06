@@ -4,11 +4,11 @@ const navLinks = document.getElementById('nav-links')
 const navServices = document.querySelector('.nav-services')
 
 navOpen.addEventListener('click', () => {
-  navLinks.style.left = 0
+  navLinks.style.bottom = 0
 })
 navClose.addEventListener('click', () => {
-  navLinks.style.left = '100%'
+  navLinks.style.bottom = '100%'
 })
 navServices.addEventListener('click', () => {
-  navLinks.style.left = '100%'
+  navLinks.style.bottom = '100%'
 })

@@ -248,9 +248,12 @@
 }
 
 .about-section-five {
-    width: 100%;
+    display: flex;
+    justify-content: center;
     height: 603px;
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 43px;
 }
 
 .about-section-five-heading {
@@ -264,6 +267,7 @@
     font-weight: 300;
     line-height: 37.5px;
     letter-spacing: -0.36px;
+    color: #6F7680;
 }
 
 .black-button {
@@ -275,4 +279,15 @@
     background: #373435;
     display: inline;
     border-radius: 100px;
+}
+
+.about-sign-up {
+    font-size: 0.96em;
+    line-height: 0.96rem;
+    text-align: center;
+    padding: 16.45px 32.9px 16.45px 32.9px;
+    border-radius: 102.81px;
+    display: inline-block;
+    color: white;
+    background-color: #373435;
 }
