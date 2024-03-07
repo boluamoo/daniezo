@@ -1,18 +1,4 @@
-// const navOpen = document.getElementById('open')
-// const navClose = document.getElementById('close')
-// const navLinks = document.getElementById('nav-links')
-// const navServices = document.querySelector('.nav-services')
-
-// navOpen.addEventListener('click', () => {
-//   navLinks.style.bottom = 0
-// })
-// navClose.addEventListener('click', () => {
-//   navLinks.style.bottom = '100%'
-// })
-// navServices.addEventListener('click', () => {
-//   navLinks.style.bottom = '100%'
-// })
-
+// MOBILE NAV
 document.addEventListener('DOMContentLoaded', function () {
   const menuIcon = document.querySelector('.menu-open')
   const mobileNav = document.querySelector('.mobile-nav')
@@ -28,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
   })
 })
 
+// CHANGING IMAGES
 const images = [
   'assets/section-one-image1.png',
   'assets/section-one-image2.png',
@@ -49,5 +36,37 @@ function changeImage() {
   }, 500) // Change image after 500ms transition
 }
 
-// Call changeImage function every 3 seconds (3000ms)
 setInterval(changeImage, 3000)
+
+// TESTIMONIAL
+const prev = document.querySelector('.prev')
+const next = document.querySelector('.next')
+const testimonial = document.querySelector('.testimonial')
+
+next.addEventListener('click', function () {
+  testimonial.innerHTML = `
+    <div class="testimonial-text1">It has been great to know that there is someone out there who knows about falling down and getting back up. We always stay humble and never give up, and for The Daneizo Trade Africa to see that in us, we are truly grateful for the loan facility help and push we have received"</div>
+    <div class="testimonial-text2">
+      We appreciate Daneizo Trade Africa Management and our able Mega Aggregator
+    </div>
+    <div class="person">
+      <div class="person-image"><img src="assets/person-two.png" alt=""></div>
+      <div class="person-name">ABIMBOLA SEKINAT</div>
+    </div>
+  `
+})
+
+prev.addEventListener('click', function () {
+  testimonial.innerHTML = `
+  <div class="testimonial-text1">I was able to obtain a quick loan facility from Daneizo Trade
+  Africa under very flexible conditions and at a lower interest rate. Their relationship has
+  been smooth and always fulfilled their promises.</div>
+<div class="testimonial-text2">
+  I like that I do not need prior savings before accessing quick loans. It really aids my
+  business expansion. Thanks to Daneizo Trade Africa. Management.</div>
+<div class="person">
+  <div class="person-image"><img src="assets/person-one.png" alt=""></div>
+  <div class="person-name">OLOWO-SAAD TAOFEEQ</div>
+</div>
+  `
+})
