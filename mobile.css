@@ -391,6 +391,10 @@
         margin: 3rem 0;
     }
 
+    .testimonial {
+        gap: 12px;
+    }
+
     .prev,
     .next {
         width: 16.75px;
@@ -398,9 +402,18 @@
     }
 
     .quote-image {
-        position: absolute;
         top: 0%;
-        left: 50%;
+    }
+
+    .person-image {
+        width: 24.81px;
+        height: 24.81px;
+    }
+
+    .person-name {
+        font-size: 12px;
+        line-height: 7.48px;
+        margin-top: 8px;
     }
 
     .testimonial-text1,
