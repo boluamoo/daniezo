@@ -256,6 +256,34 @@
         height: 45.73px;
     }
 
+    /* MODAL */
+    .modal-content {
+        border-radius: 10px;
+        height: 70%;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .modal-text {
+        text-align: center;
+    }
+
+    .modal-head {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 25px;
+        margin-bottom: 14px;
+    }
+
+    .modal-p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .close-modal {
+        width: 20px;
+    }
+
     /* SECTION THREE */
     .section-three-head {
         font-size: 24px;

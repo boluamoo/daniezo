@@ -70,3 +70,21 @@ prev.addEventListener('click', function () {
 </div>
   `
 })
+
+// MODAL
+const modal = document.getElementById('my-modal')
+// const openModal = document.getElementById('open-modal')
+// const closeModal = document.querySelector('.close-modal')
+
+const openModal = () => {
+  modal.style.display='block';
+}
+const closeModal = () => {
+  modal.style.display='none';
+}
+
+window.addEventListener('click', function(e){
+  if (e.target == modal) {
+    modal.style.display='none';
+  }
+})
