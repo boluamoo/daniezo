@@ -168,7 +168,6 @@ ul li a {
 
 .section-one-left .text {
     width: 585px;
-    /* gap: 3rem; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -193,18 +192,20 @@ ul li a {
 }
 
 .section-one-left .button {
-
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: 0em;
     color: white;
+    height: 64.73px;
     background-color: #4A4E9E;
-    padding: 1.3rem 3.07rem;
     border-radius: 40.67px;
     width: 210.75px;
     text-align: center;
+    display: flex;
+    border: 1.5px solid #F3F3F2;
     justify-content: center;
+    align-items: center;
 }
 
 .section-one-right {
@@ -246,15 +247,15 @@ ul li a {
     padding: 12px 20px;
     background-color: #72748C;
     width: 184px;
-    height: 49px;
+    /* height: 49px; */
     margin: 32px auto 20px;
 }
 
 .services-des {
-    font-size: 3em;
+    font-size: 48px;
     text-align: center;
     font-weight: 900;
-    line-height: 3.5rem;
+    line-height: 56.25px;
     margin: auto;
 }
 
@@ -267,12 +268,12 @@ ul li a {
 
 .section-two article {
     background: #F7F8FF;
-    width: 90%;
+    width: 92.38%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 7.5rem;
-    /* height: 37.4rem; */
+    padding: 0 2%;
+    height: 599px;
     margin: auto;
     border-radius: 2rem;
 }
@@ -282,7 +283,8 @@ ul li a {
     justify-content: left;
 }
 
-.section-two-left2 {
+.section-two-left2 .article-head,
+.section-two-left2 .article-p {
     text-align: right;
 }
 
@@ -292,22 +294,26 @@ ul li a {
 }
 
 .article-head {
-    font-size: 2.125em;
+    font-size: 34px;
     font-weight: 700;
-    line-height: 2.76rem;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .article-text {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 31px;
 }
 
 .article-p {
-    width: 37.9rem;
+    font-size: 24px;
     font-weight: 200;
-    font-size: 1.5em;
-    line-height: 2.25rem;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 607px;
 }
 
 .article-logo img {
@@ -459,13 +465,6 @@ ul li a {
     font-weight: 700;
 }
 
-.fa-solid {
-    color: #373435;
-    font-size: 23.05px;
-    height: 9.77px;
-    opacity: 50%;
-}
-
 .section-three-image {
     width: 564px;
     height: 600px;
@@ -487,7 +486,7 @@ ul li a {
 .section-four {
     width: 70%;
     margin: auto;
-    padding: 3.8rem 0;
+    height: 442px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -495,28 +494,55 @@ ul li a {
     margin-bottom: 7.5rem;
 }
 
+.section-four-right {
+    width: 48%;
+    height: 54%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.section-four-image {
+    height: 72%;
+    width: 42%;
+    margin: auto;
+}
+
 .section-four img {
-    width: 500px;
-    height: 320px;
     border-radius: 20px;
 }
 
 .section-four h2 {
-    font-size: 2.24875em;
+    font-size: 36px;
     font-weight: 400;
-    width: 572px;
-    margin-bottom: 2rem;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .section-four .button {
-    font-size: 0.96em;
-    line-height: 0.96rem;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
     text-align: center;
+
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+
     padding: 16.45px 32.9px 16.45px 32.9px;
     background-color: #4A4E9E;
     border-radius: 102.81px;
-    display: inline-block;
     color: white;
+    width: fit-content;
 }
 
 /* TESTIMONIAL SECTION */

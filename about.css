@@ -289,5 +289,6 @@
     border-radius: 102.81px;
     display: inline-block;
     color: white;
+    width: fit-content;
     background-color: #373435;
 }
