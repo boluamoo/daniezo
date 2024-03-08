@@ -45,14 +45,15 @@
         flex-direction: column;
         width: 100%;
         gap: 2rem;
+        height: auto;
         padding-top: 2rem;
         margin-bottom: 100px;
-
     }
 
     .about-section-two .images {
         height: 351px;
         gap: 13.48px;
+        width: 100%;
     }
 
     .image-col1,
@@ -80,6 +81,7 @@
     .about-section-three {
         display: flex;
         flex-direction: column;
+        width: 100%;
         padding-left: 0;
         gap: 12px;
         position: relative;
@@ -89,6 +91,7 @@
     .about-section-three-background {
         left: 0;
         top: -10%;
+        width: 100%;
     }
 
     .purpose {

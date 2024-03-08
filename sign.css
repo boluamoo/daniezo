@@ -134,6 +134,7 @@ span a {
 }
 
 .sign-right {
+    width: 56.25%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,20 +147,23 @@ span a {
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
+    height: 44.8%;
 }
 
 .image {
-    width: 473.15px;
-    padding: 21.88px;
-    height: 492.29px;
+    width: 48%;
+    /* padding: 21.88px; */
+    height: 100%;
     background-color: white;
     border-radius: 8.2px;
     box-shadow: 4.102419376373291px 4.102419376373291px 8.040742874145508px 0px #00000026;
 }
 
 .image img {
-    width: 100%;
-    height: 80%;
+    padding-top: 8%;
+    width: 90%;
+    height: 77%;
+    margin: auto;
     object-fit: cover;
 }
 
