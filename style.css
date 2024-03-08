@@ -139,16 +139,14 @@ ul li a {
 
 /* SECTION ONE */
 .section-one {
-    /* height: 58.8rem; */
-    /* background-color: white; */
+    height: 941px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 4.3rem;
     padding-bottom: 0;
-    /* width: 100%; */
     position: relative;
-    margin: auto;
 }
 
 .section-one .background {
@@ -169,17 +167,18 @@ ul li a {
 }
 
 .section-one-left .text {
-    width: 40.5%;
-    gap: 3rem;
+    width: 585px;
+    /* gap: 3rem; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .section-one-head {
-    font-size: 6.5em;
+    font-size: 104px;
     line-height: 104px;
     font-weight: 900;
+    height: 228px;
 }
 
 .blue {
@@ -188,18 +187,22 @@ ul li a {
 
 .section-one-left p {
     font-weight: 400;
-    font-size: 2em;
+    font-size: 32px;
+    height: 114px;
     line-height: 37.5px;
 }
 
 .section-one-left .button {
-    font-size: 1.5em;
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
     color: white;
     background-color: #4A4E9E;
     padding: 1.3rem 3.07rem;
     border-radius: 40.67px;
-    width: 13.17rem;
-    /* display: inline; */
+    width: 210.75px;
     text-align: center;
     justify-content: center;
 }
@@ -231,7 +234,7 @@ ul li a {
 .section-two {
     margin: auto;
     margin-bottom: 7.5rem;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
 }
 
 .section-two-button {

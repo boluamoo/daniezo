@@ -129,6 +129,7 @@
         flex-direction: column;
         padding: 0;
         gap: 1rem;
+        height: auto;
     }
 
     .section-one-left p {
@@ -139,6 +140,7 @@
     .section-one-head {
         font-size: 2.5em;
         line-height: 53.12px;
+        height: auto;
     }
 
     .section-one-left {
@@ -161,6 +163,8 @@
         display: flex;
         justify-content: center;
     }
+
+
 
     .section-one .background {
         display: none;
