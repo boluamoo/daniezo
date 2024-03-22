@@ -94,8 +94,8 @@
 }
 
 .about-section-two .text .text-p {
-    font-size: 19.6px;
-    line-height: 37.24px;
+    font-size: 15px;
+    line-height: 30px;
     letter-spacing: 0.1px;
     font-weight: 400;
 }
@@ -188,8 +188,8 @@
 }
 
 .about-section-four-image {
-    width: 768px;
-    height: 752px;
+    width: 40%;
+    height: 600px;
 }
 
 .about-section-four-image img {
@@ -200,26 +200,29 @@
 }
 
 .about-section-four-text {
-    padding-left: 56px;
+    padding-left: 3%;
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    justify-content: center;
+    gap: 40px;
+    width: 52%;
 }
 
 .about-section-four-text .heading {
     font-weight: 700;
-    line-height: 44px;
-    font-size: 48px;
+    line-height: 40px;
+    font-size: 30px;
     letter-spacing: 0.1px;
 }
 
 .about-section-four-des {
     display: flex;
-    gap: 100px;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .des1 {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 .des-top {
@@ -230,8 +233,8 @@
 }
 
 .des-image {
-    width: 42px;
-    height: 42px;
+    width: 38px;
+    height: 38px;
 }
 
 .des-image img {
@@ -240,17 +243,22 @@
     object-fit: cover;
 }
 
+.des {
+    flex: 1;
+}
+
 .des-top-head {
-    font-size: 18px;
+    font-size: 13px;
     letter-spacing: 0.1px;
-    line-height: 27px;
+    line-height: 23px;
     font-weight: 700;
 }
 
 .des-p {
-    width: 450px;
-    font-size: 16px;
-    line-height: 30.4px;
+    /* width: 450px; */
+    font-size: 14px;
+    width: 100%;
+    line-height: 30px;
     letter-spacing: 0.1px;
     font-weight: 400;
 }
@@ -258,20 +266,20 @@
 .about-section-five {
     display: flex;
     justify-content: center;
-    height: 603px;
+    height: 403px;
     align-items: center;
     flex-direction: column;
     gap: 43px;
 }
 
 .about-section-five-heading {
-    font-size: 64px;
+    font-size: 50px;
     line-height: 49.5px;
     font-weight: 600;
 }
 
 .about-section-five-p {
-    font-size: 32px;
+    font-size: 22px;
     font-weight: 300;
     line-height: 37.5px;
     letter-spacing: -0.36px;
