@@ -139,7 +139,6 @@ ul li a {
 
 /* SECTION ONE */
 .section-one {
-    height: 941px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -262,8 +261,8 @@ ul li a {
 .section-two .articles {
     display: flex;
     flex-direction: column;
-    gap: 7.5rem;
-    margin-top: 6.06rem;
+    gap: 50px;
+    margin-top: 60px;
 }
 
 .section-two article {
@@ -479,7 +478,7 @@ ul li a {
 }
 
 .section-three {
-    margin-bottom: 12.6rem;
+    margin-bottom: 40px;
 }
 
 /* SECTION FOUR */
@@ -491,7 +490,7 @@ ul li a {
     align-items: center;
     justify-content: space-around;
     background-image: url('assets/section4background.png');
-    margin-bottom: 7.5rem;
+    margin-bottom: 40px;
 }
 
 .section-four-right {
@@ -576,7 +575,7 @@ ul li a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 5rem auto;
+    margin: 40px auto;
 }
 
 .testimonial {
@@ -617,7 +616,7 @@ ul li a {
 
 .quote-image {
     position: absolute;
-    top: 10%;
+    top: 0%;
     left: 50%;
 }
 
@@ -633,7 +632,7 @@ ul li a {
     margin-top: 7.5rem;
     text-align: center;
     margin: auto;
-    margin-bottom: 7rem;
+    margin-bottom: 40px;
 }
 
 .reality h2 {
